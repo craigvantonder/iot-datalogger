@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "vue/no-multiple-template-root": "off"
+  }
+}

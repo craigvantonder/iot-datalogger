@@ -1,0 +1,58 @@
+.v-select {
+  .vs__open-indicator {
+    cursor: pointer;
+  }
+  .vs__dropdown-option {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  .vs__dropdown-toggle {
+    padding: 0 0 3px;
+  }
+  .vs__selected {
+    font-size: 0.875rem;
+    margin: 3px 2px 0;
+    pointer-events: none; // https://stackoverflow.com/a/30104683/2110294
+  
+    .vs__deselect svg {
+      pointer-events: auto;
+    }
+  }
+  .vs__search::placeholder {
+    font-size: 0.875rem;
+    color: #6c757d;
+    opacity: 1;
+  }
+  .vs__search {
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+  }
+}
+.vs__dropdown-toggle:hover {
+  border-color: #aaaeb7; //vue-datepicker input on hover border style
+}
+
+.v-select.vs--single {
+  .vs__clear svg {
+    position: relative;
+    top: -2px;
+  }
+}
+
+.v-select.vs--multiple {
+  .vs__selected {
+    background: $black;
+    color: $white;
+  
+    .vs__deselect svg {
+      fill: $white;
+    }
+  }
+  .vs__selected:hover {
+    color: $red;
+  
+    .vs__deselect svg {
+      fill: $red;
+    }
+  }
+}

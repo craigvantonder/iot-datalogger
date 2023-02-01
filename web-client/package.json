@@ -1,0 +1,44 @@
+{
+  "name": "web-client",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Web based client software for the iot-datalogger project",
+  "author": "Craig van Tonder",
+  "license": "MIT",
+  "main": "src/main.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigvantonder/iot-datalogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craigvantonder/iot-datalogger/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build --emptyOutDir",
+    "preview": "vite preview",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@vuepic/vue-datepicker": "^3.6.5",
+    "bootstrap": "^5.3.0-alpha1",
+    "lodash.debounce": "^4.0.8",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vue-select": "^4.0.0-beta.6"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/vue-select": "^3.16.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "sass": "^1.57.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.0.4",
+    "vue-tsc": "^1.0.24"
+  }
+}

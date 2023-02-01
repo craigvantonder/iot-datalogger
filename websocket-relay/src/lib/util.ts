@@ -1,0 +1,1 @@
+export const log = (...args: any) => process.env.LOGGING === 'true' ? console.log(new Date().toLocaleString(), ...args) : null

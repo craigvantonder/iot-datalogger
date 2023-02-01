@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="194.67789mm"
+   height="24.053459mm"
+   viewBox="0 0 194.67789 24.053459"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="web-client/src/assets/logo.png"
+   inkscape:export-xdpi="37.91988"
+   inkscape:export-ydpi="37.91988"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5589927"
+     inkscape:cx="329.70007"
+     inkscape:cy="-23.412553"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <rect
+       x="257.72366"
+       y="848.61646"
+       width="499.71527"
+       height="653.3208"
+       id="rect960" />
+    <rect
+       x="137.92773"
+       y="215.26958"
+       width="655.77307"
+       height="233.69135"
+       id="rect236" />
+  </defs>
+  <g
+     inkscape:label="Logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-58.74906,-153.85829)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,51.918537,98.971734)"
+       id="text234"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect236);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="Logo Text"><tspan
+         x="137.92773"
+         y="274.91659"
+         id="tspan2273"><tspan
+           style="font-size:64px;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, Normal'"
+           id="tspan2271">IOT DATALOGGER</tspan></tspan></text>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Logo Mark"
+       transform="matrix(1.9095578,0,0,1.9095578,-4.9180045,37.515547)"
+       inkscape:export-filename="web-client/public/favicon.svg"
+       inkscape:export-xdpi="389.79413"
+       inkscape:export-ydpi="389.79413">
+      <ellipse
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:0.180389;stroke-opacity:1"
+         id="path294"
+         cx="39.458652"
+         cy="67.224709"
+         rx="6.0271969"
+         ry="6.2079802"
+         inkscape:label="Outer Circle" />
+      <ellipse
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:0.163738;stroke-opacity:1"
+         id="ellipse1016"
+         cx="39.458652"
+         cy="67.224709"
+         rx="5.4708753"
+         ry="5.634973"
+         inkscape:label="Inner Circle" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.09828744,0,0,0.09828744,9.5585478,-20.638947)"
+         id="text958"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.0916px;line-height:1.25;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect960);display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+         inkscape:label="Text"><tspan
+           x="257.72461"
+           y="920.46542"
+           id="tspan2275">ID</tspan></text>
+    </g>
+  </g>
+</svg>

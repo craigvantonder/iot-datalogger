@@ -1,0 +1,4 @@
+# Exclude local data
+database/*.db
+database/*.db-journal
+logs/*.log

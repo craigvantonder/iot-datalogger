@@ -1,0 +1,43 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider =                "prisma-client-js"
+}
+
+datasource db {
+  provider =                "sqlite"
+  url      =                env("DATABASE_URL")
+}
+
+model device {
+  id                        Int         @id @default(autoincrement())
+  chipId                    Int
+  chipModel                 String
+  chipRevision              Int
+  chipCores                 Int
+  macAddress                String
+  name                      String
+  config                    config?
+  telemetry                 telemetry[]
+}
+
+model config {
+  id                        Int         @id @default(autoincrement())
+  readingInterval           String
+  manualReadingInterval     Int
+  userLed                   Boolean
+  device                    device      @relation(fields: [deviceId], references: [id])
+  deviceId                  Int         @unique
+}
+
+model telemetry {
+  id                        Int         @id @default(autoincrement())
+  timestamp                 BigInt
+  temperature               Float
+  humidity                  Int
+  heatIndex                 Float
+  soilMoisture              Int
+  device                    device      @relation(fields: [deviceId], references: [id])
+  deviceId                  Int
+}
