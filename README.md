@@ -57,7 +57,7 @@ Navigate to the [firmware folder](https://github.com/craigvantonder/iot-datalogg
 
 At this stage the project has been added but it may or may not be reflected in the projects window of PlatformIO. This behavior seems to be a bug and can be resolved by navigating away from "Projects & Configuration" to any other navigation option such as "Libraries" and then back to "Projects & Configuration" where you will now see the new project listed. Click on "Open" to add the environment configuration to your workspace. You are now ready to work with the project source files.
 
-You must amend the firmware configuration by adding your access details for the wireless network that the device will be connecting to along with the IP address of your local development machine within this network, see here as a reference: https://github.com/craigvantonder/iot-datalogger/blob/main/firmware/esp32-c3-devkitc-02/lib/Config/Config.h#L4-L10
+You must amend the firmware configuration by adding your access details for the wireless network that the device will be connecting to along with the IP address of your local development machine within this network, see here as a reference: https://github.com/craigvantonder/iot-datalogger/blob/7febe3c778f54a89adc3a5c40063c5d4875a626a/firmware/esp32-c3-devkitc-02/lib/Config/Config.h#L4-L10
 
 You can then now the firmware to the development board using PlatformIO:
 
