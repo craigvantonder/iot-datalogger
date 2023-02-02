@@ -26,7 +26,7 @@ VSCodium uses [open-vsx](https://open-vsx.org/) as a market place for extensions
 
 [PlatformIO](https://platformio.org/) is a professional collaborative platform for embedded development. It could be considered as an alterntive to [Arduino IDE](https://github.com/arduino/arduino-ide) or [Espressif IDF](https://github.com/espressif/esp-idf). It is used for the development of the firmware. You will find the download links under the resources section of the Visual Studio market place: https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide#id__0
 
-[Microsoft C++ Tools for VSCode](https://github.com/microsoft/vscode-cpptools) adds language support for C/C++ to VSCodium. It is used for the development of the firmware is used for the development of the firmware. It can be downloaded from the releases page: https://github.com/microsoft/vscode-cpptools/releases/
+[Microsoft C++ Tools for VSCode](https://github.com/microsoft/vscode-cpptools) adds language support for C/C++ to VSCodium. It is used for the development of the firmware. It can be downloaded from the releases page: https://github.com/microsoft/vscode-cpptools/releases/
 
 [Node.js®](https://nodejs.org/en/) is an open-source, cross-platform JavaScript runtime environment. It is used for the development and operation of the server, client and relay software. It can be downloaded from the download page: https://nodejs.org/en/download/
 
@@ -41,7 +41,7 @@ Read through the operating instructions for the [server software](https://github
 
 Read through the operating instructions for the [client software](https://github.com/craigvantonder/iot-datalogger/tree/main/web-client#operating-instructions).
 
-At this point the server software is waiting for traffic on port 8081, the traffic is expected to arrive via your local network interface such as a ethernet or wireless network adapter.
+At this point the server software is waiting for traffic on port 8081, the traffic is expected to arrive via your local network interface such as an ethernet or wireless network adapter.
 
 See the [Gotchas](https://github.com/craigvantonder/iot-datalogger#gotchas) section below for notes on firewall and router configuration.
 
