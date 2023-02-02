@@ -16,7 +16,7 @@ The analog sensor requires calibration which can be achieved by providing the ab
 - Power the device and view the output of "Serial Monitor" in PlatformIO, note the voltage value that is displayed, this is your `AIR_VALUE`.
 - Put the sensor in a glass that is 1/3 filled with water, note the voltage value is displayed, this is your `WATER_VALUE`.
 
-Adjust the firmware configuration values as required: https://github.com/craigvantonder/iot-datalogger/blob/7febe3c778f54a89adc3a5c40063c5d4875a626a/firmware/esp32-c3-devkitc-02/lib/Config/Config.h#L28
+Adjust the firmware configuration values as required: https://github.com/craigvantonder/iot-datalogger/blob/7febe3c778f54a89adc3a5c40063c5d4875a626a/firmware/esp32-c3-devkitc-02/lib/Config/Config.h#L28-L31
 
 Gotchas
 -------
