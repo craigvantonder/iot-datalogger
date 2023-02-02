@@ -59,7 +59,7 @@ At this stage the project has been added but it may or may not be reflected in t
 
 You must amend the firmware configuration by adding your access details for the wireless network that the device will be connecting to along with the IP address of your local development machine within this network, see here as a reference: https://github.com/craigvantonder/iot-datalogger/blob/7febe3c778f54a89adc3a5c40063c5d4875a626a/firmware/esp32-c3-devkitc-02/lib/Config/Config.h#L4-L10
 
-You can then now the firmware to the development board using PlatformIO:
+You can now flash the firmware to your development board using PlatformIO:
 
 ![PlatformIO upload image](https://github.com/craigvantonder/iot-datalogger/blob/main/platformio-upload.png)
 
